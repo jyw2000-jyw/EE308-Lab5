@@ -48,7 +48,7 @@ double G5G6(int num)
         cout<<"answer: ";
         cin>>userAns;
         double ansP = userAns - ans;
-        if((ansP >= -EP)&&(ansP <= EP))
+        if((ansP > -EP)&&(ansP < EP))//if ans is right
         {
         	G++;
         	cout<<"right"<<endl;
