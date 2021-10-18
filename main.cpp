@@ -10,15 +10,15 @@
 using namespace std;
 
 int main(){
-	int grade;
+	int grade;//two int for func
 	int num;
-	double ans;
-	cout<<"ÄãµÄÄê¼¶";
+	double ans;//the ans
+	cout<<"ä½ çš„å¹´çº§";
 	cin>>grade;
 	cout<<endl;
-	cout<<"ÄãµÄÌâÄ¿ÊıÁ¿£º";
+	cout<<"ä½ çš„é¢˜ç›®æ•°é‡ï¼š";
 	cin>>num;
-	if(grade == 1 ||grade == 2)
+	if(grade == 1 ||grade == 2)// get the grade
 		ans = grade12(num);
 	else if(grade == 3 ||grade == 4)
 		ans = G3G4(num);
