@@ -39,7 +39,7 @@ double G3G4(int a){
 		}
 	}
 	score=count/a*100;
-	cout<<"ÄãµÄ·ÖÊýÊÇ"; 
+	cout<<"ä½ çš„æˆç»©ï¼š"; 
 	cout<<setiosflags(ios::fixed)<<setprecision(2)<<score<<endl;
 	return score;
 } 
