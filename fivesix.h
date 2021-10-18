@@ -5,7 +5,7 @@
 #include <cstring>
 #include <iomanip>
 using namespace std;
-
+//Grade for 5 6 grades
 double G5G6(int num)
 {
     double G = 0;
@@ -56,7 +56,7 @@ double G5G6(int num)
     }
 	G = (double)G/num;
 	G = G * 100;
-	cout<<"你的分数是"; 
+	cout<<"脛茫碌脛路脰脢媒脢脟"; 
 	cout<<setiosflags(ios::fixed)<<setprecision(2)<<G<<endl;
     return G;
 }
