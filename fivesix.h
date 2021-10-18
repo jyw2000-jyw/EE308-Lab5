@@ -5,14 +5,14 @@
 #include <cstring>
 #include <iomanip>
 using namespace std;
-
+// for 5 6 grades
 double G5G6(int num)
 {
-    double G = 0;
+    double G = 0;//grade
     double ans = 0;
-    double userAns;
+    double userAns;//cin the ans
     double EP = 0.01; 
-    for(int i = 0; i < num; i++)
+    for(int i = 0; i < num; i++)//times
     {
         srand((int)time(0));
         double m = rand() % (100)/(float)(100);
@@ -20,7 +20,7 @@ double G5G6(int num)
         double x = rand() + m;
         double y = rand() + m;
         int type = rand() % 4 + 1;
-        switch (type)
+        switch (type)//the type of +-/*
         {
         case 1:
             ans = x + y;
@@ -56,7 +56,7 @@ double G5G6(int num)
     }
 	G = (double)G/num;
 	G = G * 100;
-	cout<<"ÄãµÄ·ÖÊýÊÇ"; 
+	cout<<"æˆç»©ï¼š"; 
 	cout<<setiosflags(ios::fixed)<<setprecision(2)<<G<<endl;
     return G;
 }
