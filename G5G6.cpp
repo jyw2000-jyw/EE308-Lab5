@@ -41,12 +41,3 @@ double G3G4(int a){
 	score=count/a*100;
 	return score;
 } 
-int main()
-{
-	int a;
-	cin>>a;
-	cout<<G3G4(a)<<endl;
-
-	return 0;
-}
-
